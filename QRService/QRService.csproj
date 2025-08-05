@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>4a491a2b-61d9-46f3-ab1e-f61958d3f751</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.22.1" />
+    <PackageReference Include="QRCoder" Version="1.6.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.3" />
+	<PackageReference Include="RabbitMQ.Client" Version="7.1.2" />
+  </ItemGroup>
+	
+  <ItemGroup>
+	 <ProjectReference Include="..\Shared\Shared.csproj" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+	
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="https://www.schemastore.org/bun-lock.json" /></VisualStudio></ProjectExtensions>
+
+</Project>

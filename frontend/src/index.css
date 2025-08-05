@@ -1,0 +1,506 @@
+﻿/* Reset */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #012b47, #0c7f9a);
+    color: #0f172a;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Outer Wrapper */
+.page-wrapper {
+    min-height: 100vh;
+    padding: 40px 10px;
+}
+
+.container {
+    max-width: 480px;
+    margin: auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.header-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff !important;
+}
+
+.header-btn {
+    background: #0ea5e9;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+    .header-btn:hover {
+        background: #0284c7;
+    }
+
+/* Card Style */
+.card {
+    background: #f9fafb;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.section-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    color: #1e293b;
+}
+
+/* Inputs & Buttons */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    font-size: 1rem;
+}
+
+button {
+    background: #0ea5e9;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+    button:hover {
+        background: #0284c7;
+    }
+
+/* Short URL Output Box */
+.short-url-box {
+    margin-top: 18px;
+    padding: 14px 18px;
+    background: #f1f5f9;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #2563eb;
+    word-break: break-all;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+    .short-url-box a {
+        color: #2563eb;
+        text-decoration: underline;
+    }
+
+.copy-success {
+    color: #16a34a;
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-left: 5px;
+}
+
+/* Table */
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+
+th, td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #e2e8f0;
+    text-align: left;
+    color: #1e293b;
+}
+
+th {
+    background: #f1f5f9;
+    font-weight: 600;
+}
+
+/* Close button in modal */
+.close-button {
+    margin-top: 10px;
+    background: none;
+    color: #333;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+}
+
+body, .page-wrapper {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f2027, #2c5364 80%);
+    font-family: 'Inter', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container rộng hơn, maxWidth lớn hơn, bo góc đẹp */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: none;
+    min-height: 100vh;
+    padding: 0 20px 40px 20px;
+    box-sizing: border-box;
+}
+
+/* Card rộng và đổ bóng đẹp */
+.card {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(44,83,100,0.10), 0 1.5px 8px rgba(44,83,100,0.08);
+    padding: 28px 32px;
+    margin-bottom: 30px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 12px 0;
+    margin-bottom: 20px;
+}
+
+.header-title {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #22223b;
+    letter-spacing: -1px;
+}
+
+.header-btn {
+    background: #22c55e;
+    color: #fff;
+    padding: 10px 28px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(44,83,100,0.09);
+    transition: background 0.2s;
+}
+
+    .header-btn:hover {
+        background: #16a34a;
+    }
+
+.section-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #2563eb;
+    margin-bottom: 14px;
+}
+
+.short-url-box {
+    margin-top: 18px;
+    padding: 18px 22px;
+    background: #f1f5f9;
+    border-radius: 12px;
+    font-weight: 600;
+    color: #2563eb;
+    word-break: break-all;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+    .short-url-box a {
+        color: #2563eb;
+        text-decoration: underline;
+    }
+
+    .short-url-box button {
+        margin-left: 8px;
+        padding: 5px 14px;
+        background: #2563eb;
+        color: #fff;
+        border-radius: 6px;
+        border: none;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+.copy-success {
+    color: #16a34a;
+    margin-left: 8px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+/* Table container nếu cần */
+.table-container {
+    overflow-x: auto;
+}
+
+/* Close button cho modal */
+.close-button {
+    margin-top: 10px;
+    background: none;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+}
+/* Modern Table Style */
+.table-container {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(44,83,100,0.12);
+    padding: 24px;
+    margin-top: 24px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 1.08rem;
+    background: transparent;
+}
+
+th, td {
+    padding: 16px 12px;
+    text-align: left;
+    color: #22223b;
+    vertical-align: middle;
+}
+
+th {
+    background: #f3f6fa;
+    font-weight: 800;
+    font-size: 1.08rem;
+    letter-spacing: 0.01em;
+    border-bottom: 2px solid #e5eaf1;
+}
+
+td {
+    border-bottom: 1px solid #e5eaf1;
+    font-weight: 500;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:hover td {
+    background: #f6faff;
+    transition: background 0.2s;
+}
+
+/* Short code link */
+td a {
+    color: #2563eb;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+    td a:hover {
+        color: #0ea5e9;
+        text-decoration: underline;
+    }
+
+/* Action buttons */
+.table-actions {
+    display: flex;
+    gap: 8px;
+}
+
+    .table-actions .edit-btn,
+    .table-actions .delete-btn {
+        padding: 7px 18px;
+        border-radius: 6px;
+        border: none;
+        font-weight: 700;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background 0.15s;
+    }
+
+    .table-actions .edit-btn {
+        background: #3b82f6;
+        color: #fff;
+    }
+
+        .table-actions .edit-btn:hover {
+            background: #2563eb;
+        }
+
+    .table-actions .delete-btn {
+        background: #ef4444;
+        color: #fff;
+    }
+
+        .table-actions .delete-btn:hover {
+            background: #b91c1c;
+        }
+/* Table card improvements */
+.card .table-container {
+    padding: 0; /* Bỏ padding dư */
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 0;
+}
+
+/* Table wrapper cân đối hơn */
+.table-container {
+    overflow-x: auto;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+}
+
+/* Table cải tiến */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 1rem;
+    background: transparent;
+    table-layout: fixed;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    color: #1e293b;
+    vertical-align: middle;
+    word-wrap: break-word;
+}
+
+th {
+    background-color: #f8fafc;
+    font-weight: 700;
+    font-size: 1rem;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+td {
+    border-bottom: 1px solid #e2e8f0;
+    font-weight: 500;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:hover td {
+    background-color: #f1f5f9;
+    transition: background-color 0.2s;
+}
+
+/* Link in table */
+td a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+    td a:hover {
+        text-decoration: underline;
+    }
+
+/* Action buttons */
+.table-actions {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+    .table-actions .edit-btn,
+    .table-actions .delete-btn {
+        padding: 6px 14px;
+        border-radius: 6px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+
+    .table-actions .edit-btn {
+        background-color: #3b82f6;
+        color: white;
+    }
+
+        .table-actions .edit-btn:hover {
+            background-color: #2563eb;
+        }
+
+    .table-actions .delete-btn {
+        background-color: #ef4444;
+        color: white;
+    }
+
+        .table-actions .delete-btn:hover {
+            background-color: #b91c1c;
+        }
+
+.auth-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #3b82f6, #0ea5e9);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.auth-card {
+    background: #ffffff;
+    padding: 30px 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+    .auth-card h2 {
+        margin-bottom: 20px;
+        color: #0ea5e9;
+        font-size: 24px;
+        font-weight: bold;
+    }
